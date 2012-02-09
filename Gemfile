@@ -6,7 +6,6 @@ gem 'rails', '3.2.1'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
-
 gem 'thin'
 
 # Gems used only for assets and not required
@@ -22,8 +21,12 @@ group :assets do
 end
 
 gem 'jquery-rails'
-
 gem 'therubyracer'
+
+gem 'haml'
+gem 'haml-rails'
+gem 'will_paginate'
+gem 'twitter-bootstrap-rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
